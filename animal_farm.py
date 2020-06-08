@@ -14,7 +14,11 @@ import sys
 
 from animals import cat
 from animals import dog
+<<<<<<< HEAD
 from animals import lion
+=======
+from animals import leopard
+>>>>>>> feature-leopard
 from animals import sheep
 import animal
 import farm
@@ -25,8 +29,13 @@ def make_animal(kind):
         return cat.Cat()
     if kind == 'dog':
         return dog.Dog()
+<<<<<<< HEAD
     if kind == 'lion':
 	return lion.Lion()
+=======
+    if kind == 'leopard':
+	return leopard.Leopard()
+>>>>>>> feature-leopard
     if kind == 'sheep':
         return sheep.Sheep()
     return animal.Animal(kind)
