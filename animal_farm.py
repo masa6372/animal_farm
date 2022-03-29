@@ -14,11 +14,7 @@ import sys
 
 from animals import cat
 from animals import dog
-<<<<<<< HEAD
 from animals import lion
-=======
-from animals import leopard
->>>>>>> feature-leopard
 from animals import sheep
 import animal
 import farm
